@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import 'tailwindcss';
+
+:root {
+    --fg: #07042a;
+    --ac: #f6004e;
+    --bg: #ffffff;
+}
+
+@theme {
+  --color-brand-fg: var(--fg);
+  --color-brand-ac: var(--ac);
+  --color-brand-bg: var(--bg);
+}
+
+html {
+  color: var(--fg);
+  background-color: var(--bg);
+}
+
+body {
+  font-family: Libre Caslon Text, Georgia, serif;
+  overflow-x: hidden;
+}
+
+.font-caslon-bold {
+  font-family: Libre Caslon Text, Georgia, serif;
+  font-weight: 700;
+}
+
+.font-caslon-regular {
+  font-family: Libre Caslon Text, Georgia, serif;
+  font-weight: 400;
+}
+
+.font-caslon-semibold {
+  font-family: Libre Caslon Text, Georgia, serif;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .headline-display {
+    -webkit-text-stroke: 1px var(--fg);
+  }
+}
