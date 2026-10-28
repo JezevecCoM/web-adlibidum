@@ -3,7 +3,7 @@ export const CONTENT = {
     title: "HRA, KTERÁ VÁS (S)VEDE",
     paragraphs: [
       "Přineseme vám smyslný zážitek krok po kroku, v pohodlí domova.",
-      "Jeste připraveni na rande, na které jen tak nezapomenete?",
+      "Darujte si scénář rande, na které jen tak nezapomenete?",
     ],
     buttons: {
       order: "objednat",
